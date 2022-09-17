@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    margin:0;
+    background-color: white;
+}
+
+.uppercontainer{
+    padding: 10px;
+    width: 100%;
+    height: 30vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+   /* justify-content: flex-end; */
+}
+
+.icons{
+    margin-right: 5px;
+    
+}
+
+.linkedin{
+    margin-top:5px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.leftIntro{
+    /* font-weight: lighter; */
+    margin-right: 190px;
+    margin-top:40px;
+}
+
+img{
+    border-radius: 20%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.Educontent{
+    margin-left: 40px;
+}
+
+.detail{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: flex-start; */
+    margin-top: 10px;
+    margin-left: 200px;
+    /* font-family: 'Lato', sans-serif;
+    font-style: italic; */
+    font-size: 50px;
+}
+
+#name{
+    
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+h3 ,h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* #contact{
+    margin-top: 0;
+} */
+
+.lowercontainer{
+    display: flex;
+    margin: 10px;
+   /* background-color: blueviolet; */
+    justify-content: space-between;
+   height:100px;
+    
+
+}
+
+#skill{
+    /* display: inline; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.fitem{
+    
+    height: 15cm;
+    border-left: none;
+
+    width:50%;
+    /* border: 2px solid black; */
+    
+    margin:2px;    
+}
+
+.fitemLeft{
+    justify-content: space-between;
+}
+
+
+.fitemRight{
+    justify-content: space-between;
+}
+
+.intro{
+    display: flex;
+}
+
+.content{
+    margin-left:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#rightalign{
+    margin-top: 68px;
+}
